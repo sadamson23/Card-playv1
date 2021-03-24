@@ -10,19 +10,16 @@ import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import { blue, red } from "@material-ui/core/colors";
-import FavoriteIcon from "@material-ui/icons/Favorite";
+import { blue } from "@material-ui/core/colors";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import AlarmIcon from "@material-ui/icons/Alarm";
-import factoryImage from "./chocolate.jpg";
-import { green } from "@material-ui/core/colors";
-import SvgIcon from "@material-ui/core/SvgIcon";
+import factoryImage from "./images/Nestle-empresas-reputacion.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 400
+    maxWidth: 350
   },
   media: {
     height: 0,
@@ -64,7 +61,7 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="FAS IT: Factory Production Impact !!"
+        title="FAS IT: Factory Production Impact!"
         subheader="April, 2021"
       />
       <CardMedia className={classes.media} image={factoryImage} title="mmm" />
